@@ -92,6 +92,24 @@ html {
     color: var(--primary-color);
 }
 
+.toggle-menu {
+  position: relative;
+  background-color: white;
+  border: none;
+  color: rgb(110, 108, 108);
+  display: none;
+}
+
+.toggle-menu i {
+  font-size: 2rem;
+}
+
+.toggle-menu:focus{
+  border: 3px solid;
+  border-color: gray;
+  border-radius: 7px;
+}
+
 .navbar .feature i {
     font-size: larger;
 }
@@ -113,6 +131,75 @@ html {
     display: flex;
     gap: 1rem;
 }
+
+.content {
+  padding: 3vh 7vw;
+  text-align: left;
+  align-content: center;
+  display: none;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-list li {
+  margin-bottom: 1.5rem;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #495057;
+  font-size: 1.1rem;
+}
+
+.nav-list a:hover {
+  color: var(--primary-color);
+}
+
+.search-container {
+  margin-top: 2rem;
+}
+
+.search-input {
+  width: 60%;
+  padding: 0.75rem 3rem 0.75rem 1rem;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.search-input::placeholder {
+  color: #6c757d;
+}
+
+.search-input:focus{
+  outline: none;
+  border: 3px solid;
+  border-color: #8ca5c0;
+}
+.search-btn {
+  background: #a9aaab;
+  border: none;
+  cursor: pointer;
+  padding: 0.75rem;
+  border-radius: 2px;
+}
+
+.cart-icons {
+  display: inline-flex;
+  gap: 1rem;
+  margin-left: 1rem;
+  align-items: center;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 1.5rem;
+}
+
 
 /* About section */
 .about-sec {
@@ -356,4 +443,27 @@ ul {
     padding: 1vh 1vw;
     border-radius: 5px;
     font-size: larger;
+}
+
+@media (max-width : 990px) {
+  .navbar .items {
+    justify-content: flex-end;
+  }
+
+  .navbar .toggle-menu {
+    display: block;
+    cursor: pointer;
+  }
+
+  .nav-temp {
+    display: none;
+  }
+
+  .navbar .menu-items {
+    display: none;
+  }
+
+  .feature {
+    display: none;
+  }
 }

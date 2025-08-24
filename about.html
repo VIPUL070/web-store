@@ -4,7 +4,7 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
+   <title>About</title>
    <script src="https://kit.fontawesome.com/ededc58e34.js" crossorigin="anonymous"></script>
    <link rel="stylesheet" href="css/about.css">
 </head>
@@ -42,6 +42,10 @@
                <a href="contact.html">Contact</a>
             </div>
 
+             <button class="toggle-menu">
+               <span><i class="fa-solid fa-bars"></i></span>
+            </button>
+
             <div class="feature">
                <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
                <a href=""><i class="fa-solid fa-cart-plus"></i></a>
@@ -49,6 +53,24 @@
             </div>
          </div>
       </nav>
+
+       <div class="content">
+        <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Search ...">
+            <div class="cart-icons">
+                <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <span class="cart-item"><i class="fa-solid fa-user"></i></span>
+                <span class="cart-item"><i class="fa-solid fa-cart-plus"></i></span>
+            </div>
+        </div>
+    </div>
    </header>
 
    <main>
@@ -192,6 +214,9 @@
          </div>
       </div>
    </footer>
+
+   <script src="js/script.js"></script>
+   
 </body>
 
 </html>
