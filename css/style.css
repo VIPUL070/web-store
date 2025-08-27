@@ -494,3 +494,115 @@ footer a:hover {
     display: none;
   }
 }
+
+@media (max-width:767px) {
+.swiper {
+  width: 100%;
+  height: 100dvh;
+}
+
+.swipe .elem {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.elem-text {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.elem-img {
+  width: 60vw;
+  background: #d7d8d9;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 9vh 5vw;
+}
+
+.container-card {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+}
+
+.container-card .card {
+  width: 100%;
+  min-height: auto;
+}
+
+.featured-sec {
+  width: 100%;
+  min-height: 100dvh;
+  padding: 9vh 9vw;
+}
+
+.featured-article {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;;
+  margin-top: 9vh;
+  gap: 2rem;
+
+}
+
+.featured-article .art {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.social-handle {
+  display: flex;
+  gap: 2rem;
+}
+
+.copyright {
+  font-size: 0.9rem;
+}
+
+.container {
+  padding: 7vh 4vw;
+}
+}
+
+@media (min-width:768px) and (max-width:1023px){
+.container {
+  width: 100%;
+  min-height: 80vh;
+}
+
+.featured-article .art {
+  width: 30%;
+}
+
+.product-desc {
+  min-height: 50vh;
+}
+
+.product-desc ul {
+  font-size: 1rem;
+}
+
+
+.product-desc ul li:first-child::before {
+  font-size: 1.5rem;
+}
+
+
+
+}

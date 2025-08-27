@@ -405,7 +405,7 @@ ul {
   }
 }
 
-@media (max-width : 655px) {
+@media (max-width : 767px) {
 .form-row {
   display: flex;
   flex-direction: column;

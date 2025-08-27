@@ -236,7 +236,6 @@ margin: 0vh 4vw;
 }
 
 .services{
-    position: relative;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -246,15 +245,11 @@ margin: 0vh 4vw;
 }
 
 .card{
-    position: relative;
     border: 1px solid transparent;
     height: 30vh;
     width: 20%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    align-content: center;
     gap: 2rem; 
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
     transition: all ease-in 0.2s ;
@@ -287,7 +282,7 @@ margin: 0vh 4vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 10vh;
+    margin-top: 15vh;
     gap: 2rem;
 }
 
@@ -436,4 +431,100 @@ ul {
   .feature {
     display: none;
   }
+}
+
+@media (max-width : 767px){
+.about-sec {
+display: flex;
+flex-direction: column;
+gap: 1rem;
+}
+
+.about-text {
+position: relative;
+width: 75%;
+
+}
+
+.about-img{
+ height: 80%;
+ width: 80%;
+
+}
+
+.container{
+  min-height: 50dvh ;
+}
+
+.services{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.card{
+    height: 30vh;
+    width: 70%;
+}
+
+.client-detail{
+    width: 13%;
+    height: auto;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.social-handle {
+  display: flex;
+  gap: 2rem;
+}
+
+.copyright {
+  font-size: 0.9rem;
+}
+
+.container {
+  padding: 7vh 4vw;
+}
+
+}
+
+@media (min-width:768px) and (max-width:1023px){
+.about-sec {
+min-height: 55dvh;
+padding: 9vh 9vw;
+width: 100%;
+}
+
+.container{
+  padding: 11vh 9vw;
+}
+
+.container-text{
+margin: 0vh 9vw;
+}
+
+.services{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 7vh;
+}
+
+.card{
+    height: 30vh;
+    width: 45%;
+    gap: 2rem; 
+}
+
+.brand{
+    min-height: 55dvh;
+}
+
 }
