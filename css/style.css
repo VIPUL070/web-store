@@ -490,9 +490,20 @@ footer a:hover {
     display: none;
   }
 
+.search-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.search-input {
+  width: 100%;
+}
+
   .feature {
     display: none;
   }
+
 }
 
 @media (max-width:767px) {
