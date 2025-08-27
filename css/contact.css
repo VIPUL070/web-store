@@ -382,7 +382,7 @@ ul {
   font-size: larger;
 }
 
-@media (max-width : 990px) {
+@media (max-width:990px) {
   .navbar .items {
     justify-content: flex-end;
   }
@@ -403,4 +403,25 @@ ul {
   .feature {
     display: none;
   }
+}
+
+@media (max-width : 655px) {
+.form-row {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.social-handle {
+  display: flex;
+  gap: 2rem;
+}
+
+.copyright {
+  font-size: 0.9rem;
+}
+
+.container {
+  padding: 7vh 4vw;
+}
 }
