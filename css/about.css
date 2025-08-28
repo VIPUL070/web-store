@@ -536,5 +536,10 @@ margin: 0vh 9vw;
 .brand{
     min-height: 55dvh;
 }
+}
 
+@media (min-width:1024px) and (max-width:1248px) {
+.brand{
+  min-height: auto;
+}
 }

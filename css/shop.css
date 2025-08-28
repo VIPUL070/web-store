@@ -678,3 +678,9 @@ font-size: 0.8rem;
 }
   
 }
+
+@media (min-width:1024px) and (max-width:1248px) {
+.container{
+  min-height: auto;
+}
+}

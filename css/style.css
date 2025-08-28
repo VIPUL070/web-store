@@ -613,7 +613,13 @@ footer a:hover {
 .product-desc ul li:first-child::before {
   font-size: 1.5rem;
 }
+}
 
-
+@media (min-width:1024px) and (max-width:1248px) {
+.container {
+  width: 100%;
+  min-height: 60dvh;
+}
 
 }
+
